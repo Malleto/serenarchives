@@ -626,7 +626,7 @@ a:hover {
     padding: auto;
     display: flex;
     min-width: 44%;
-    max-width: 69%;
+    max-width: 100%;
     border: white;
 }
 
@@ -639,14 +639,14 @@ a:hover {
     
 }
 
-.social-card {
+.social-card, .mal-social-card {
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
 }
 
 .social-card {
     margin: 15% 15% 15% 15%;
-    width: 75 dvw;
+    width: 69 dvw;
     background-color: rgb(84, 7, 25);
     border-radius: 5px;
     animation: float 4s ease-in-out infinite;
